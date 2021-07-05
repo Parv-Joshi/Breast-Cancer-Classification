@@ -37,7 +37,7 @@ pip install warnings
 pip install graphviz
 ```
 
-Apart from these packages, I created a file called [Predictions_and_Confusion_Matrix.py](https://github.com/Parv-Joshi/Breast-Cancer-Classification/blob/main/Predictions_and_Confusion_Matrix.py), whose functions was used in the [Main.ipynb](https://github.com/Parv-Joshi/Breast-Cancer-Classification/blob/main/Main.ipynb) document to reduce repeatation of code.
+Apart from these packages, I created a file called [Predictions_and_Confusion_Matrix.py](https://github.com/Parv-Joshi/Breast-Cancer-Classification/blob/main/Predictions_and_Confusion_Matrix.py), whose functions were used in the [Main.ipynb](https://github.com/Parv-Joshi/Breast-Cancer-Classification/blob/main/Main.ipynb) document to reduce repeatation of code.
 
 [Predictions_and_Confusion_Matrix.py](https://github.com/Parv-Joshi/Breast-Cancer-Classification/blob/main/Predictions_and_Confusion_Matrix.py) has two functions:
 
