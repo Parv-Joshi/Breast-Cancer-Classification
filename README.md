@@ -10,18 +10,18 @@ This project includes data preprocessing, basic visualization, splitting the dat
 These are the attributes and their scales:
 
 1. Sample code number: id number
-2. Clump Thickness: 1 - 10
-3. Uniformity of Cell Size: 1 - 10
-4. Uniformity of Cell Shape: 1 - 10
-5. Marginal Adhesion: 1 - 10
-6. Single Epithelial Cell Size: 1 - 10
-7. Bare Nuclei: 1 - 10
-8. Bland Chromatin: 1 - 10
-9. Normal Nucleoli: 1 - 10
-10. Mitoses: 1 - 10
-11. Class: (2 for benign, 4 for malignant)
+1. Clump Thickness: 1 - 10
+1. Uniformity of Cell Size: 1 - 10
+1. Uniformity of Cell Shape: 1 - 10
+1. Marginal Adhesion: 1 - 10
+1. Single Epithelial Cell Size: 1 - 10
+1. Bare Nuclei: 1 - 10
+1. Bland Chromatin: 1 - 10
+1. Normal Nucleoli: 1 - 10
+1. Mitoses: 1 - 10
+1. Class: (2 for benign, 4 for malignant)
 
-## Required Packages
+## Required Packages and Additional Files
 
 This project uses Python's famous [Scikit-Learn](https://scikit-learn.org/stable/) machine learning package, alongwith [Pandas](https://pandas.pydata.org/),
 [NumPy](https://numpy.org/), [MatplotLib](https://matplotlib.org/), [GraphViz](https://pypi.org/project/graphviz/) and [MissingNo](https://pypi.org/project/missingno/). It also uses the packages [warnings](https://docs.python.org/3/library/warnings.html) to hide extra warnings and [MatplotLib's ggplot style sheet](https://matplotlib.org/stable/gallery/style_sheets/ggplot.html) for better graphs. For who do not have these installed, 
@@ -36,6 +36,18 @@ pip install scikit-learn
 pip install warnings
 pip install graphviz
 ```
+
+Apart from these packages, I created a file called [Predictions_and_Confusion_Matrix.py](https://github.com/Parv-Joshi/Breast-Cancer-Classification/blob/main/Predictions_and_Confusion_Matrix.py), whose functions was used in the [Main.ipynb](https://github.com/Parv-Joshi/Breast-Cancer-Classification/blob/main/Main.ipynb) document to reduce repeatation of code.
+
+[Predictions_and_Confusion_Matrix.py](https://github.com/Parv-Joshi/Breast-Cancer-Classification/blob/main/Predictions_and_Confusion_Matrix.py) has two functions:
+
+1. Predict(classifier, X_test, y_test): This function makes classification predictions (from the classifier 'classifier') of the data set's 
+    testing set (X_test) and stores it into the global variable y_pred. Moreover, it prints a table of 
+    the first 10 observations' Actual vs. Predicted outcomes.
+    
+1. ConfusionMatrixAndAccuracy(y_test): This function creates a confusion matrix using the 'y_pred' variable created using the Predict() function,
+    and the dependent variable's testing set array. Moreover, it prints the R^2 value, the number of false 
+    positives, and the number of false negatives made.
 
 ## Citations
 
