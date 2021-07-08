@@ -36,5 +36,5 @@ def ConfusionMatrixAndAccuracy(y_test):
     FalsePositives = cm[0][1]
     print("Number of false positives:", FalsePositives)
     FalseNegatives = cm[1][0]
-    print("Number of false positives:", FalseNegatives)
+    print("Number of false negatives:", FalseNegatives)
 
