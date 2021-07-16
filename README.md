@@ -1,5 +1,5 @@
 # Breast Cancer Classification Project
-This is Logistic Regression classification project using the famous [UCI Breast Cancer Wisconsin (Original) Data Set](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29).
+This is a classification project using the famous [UCI Breast Cancer Wisconsin (Original) Data Set](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29).
 The data was in a .DATA file, which is also a part of this repository. The data description can also be found in the source website.
 
 This project aimed to compare the different classification models and find which type of classification method provided the best accuracy, and best suits the data set. The types of classification used are: logistic regression, k-nearest neighbors, support vector regression, kernal svm, decision tree regression, and random forest regression.
